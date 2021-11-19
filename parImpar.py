@@ -16,6 +16,7 @@ try:
         quit()
     if restonum > 0:
         print("O numero não é inteiro")
+        quit()
 
     impar = num % 2     #Verifica se o numero a dividir por 2 tem resto > 0 para verificar se é impar ou par
     # print(impar)
